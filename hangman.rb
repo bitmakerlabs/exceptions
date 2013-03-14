@@ -4,6 +4,7 @@
 class Hangman
   #.... 
   # Hangman::InvalidGuessException
+  # This class should technically be inheriting from StandardError, not Exception !! (see Readme)
   class InvalidGuessException < Exception
   end
 
